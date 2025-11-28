@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#2193b0">
+
+    <TextView
+        android:id="@+id/tytulTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Quiz – Piotr Piskorz"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/przyciskStart"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="ROZPOCZNIJ QUIZ"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#FF6F00"
+        android:elevation="6dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tekstPytania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pytanie pojawi się tutaj"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/przyciskA"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="A"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1E88E5"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/przyciskB"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="B"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#43A047"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/przyciskC"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F4511E"
+        android:elevation="4dp"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tekstWynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik: 0"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/przyciskReset"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="RESETUJ QUIZ"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:elevation="4dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
